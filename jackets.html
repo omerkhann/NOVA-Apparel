@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Jackets - Nova Apparel</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .product-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-display: swap;
+            width: 300px;
+            margin-bottom: 100px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .add-to-cart-btn {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cart {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .cart-item {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+        <a href="home.html">
+            <div class="logo"><img src ="nova logo.png" height = "50" width = "150"></div>
+        </a>
+
+        <div class="searchbox">
+            <form action="home.html">
+                <div class="searchinput-box">
+                    <input type="text" placeholder="SEARCH">
+                </div>
+            </form>
+            </div>
+
+        
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">CLOTHES</a>
+                    <div class="dropdown-content">
+                        <a href="jackets.html">Jackets</a>
+                        <a href="shirts.html">Shirts</a>
+                        <a href="pants.html">Pants</a>
+                        <a href="sweaters.html">Sweaters</a>
+                    </div>
+                </li>
+                
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+                <li><a href="shopping-cart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<div class="container">
+        <div class="product-box">
+        <img src="squarepuffer.jpg" alt="Jacket" class="product-image">
+        <h2>Hooded Square Puffer Jacket</h2>
+        <p>Puffer jacket with a quilted look. Full zip closure front with a full-coverage hood. Topped with a logo accent at the sleeve.</p>
+        <p>Price: $99.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="alpha.jpg" alt="Jacket" class="product-image">
+        <h2>Alpha Industries MA-1 Bomber Jacket</h2>
+        The classic MA-1 jacket in a utility style with a full zip at the front. Fitted with a contrast liner and inner pocket.
+        Topped with pocket at the sleeve.        
+        <p>Price: $199.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="corduroy.jpg" alt="Jacket" class="product-image">
+        <h2>Big Corduroy Work Jacket</h2>
+        <p>Big corduroy work jacket. Cut in a slightly oversized silhouette, this cotton cord jacket offers a full-length button-front closure, pointed collar and single patch pocket at the chest.</p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="yellow.jpg" alt="Jacket" class="product-image">
+        <h2>Standard Cloth Faux Wool Varsity Jacket</h2>
+        <p>Classic look varsity style jacket by Standard Cloth with a snap placket closure at the front.
+            Tonal look jacket with logo embroidery at the left chest. Includes hand pockets at the front.</p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+    
+    <div class="product-box">
+        <img src="nf.jpg" alt="Jacket" class="product-image">
+        <h2>The North Face Extreme Pile Fleece Pullover Jacket</h2>
+        <p>Plush piled fleece pullover jacket by The North Face. 
+            Everyday adventure ready fleece with a mock neck and partial zip closure front. 
+            Fitted with zippered front and chest pockets & elasticated trims.
+        </p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="hoodie.jpg" alt="Jacket" class="product-image">
+        <h2>Athletics '90s Zip Windbreaker Jacket</h2>
+        <p>Hooded windbreaker jacket by New Balance with a retro-inspired look. 
+            Topped with a stripe across the chest and logo accent. 
+            Fitted with an adjustable hood and includes hand pockets.
+        </p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+
+</div>
+
+
+    <footer>
+        <div class="contact-info">
+            <p id="footerpara"><b>Phone: +92 333 4643108 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email: info@novapparels.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address: 54 The Mall, Lahore, Pakistan 46620</b></p>  
+        </div>
+    </footer>
+    
+</body>
+
+</html>

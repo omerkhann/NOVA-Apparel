@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Your Cart</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+    <style>
+
+        .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: swap;
+    width: 50%; 
+    box-sizing: border-box;
+    height: 200px; 
+    align-items: center; 
+}
+
+.product-image {
+    max-width: 40%; 
+    height: 100%;
+    margin-right: 20px; 
+}
+
+.product-details {
+    max-width: 100%; 
+    text-align: left;
+}
+
+    .btn {
+        background-color: black;
+        border: 2px solid black; 
+        width: 300px;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 20px auto; 
+        display: block; 
+    }
+
+.bottommargin
+{
+    margin-bottom: 100px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <header>
+
+        
+        <nav>
+            <a href="home.html">
+                <div class="logo"><img src="nova logo.png" height="50" width="150"></div>
+            </a>
+
+            <div class="searchbox">
+                <form action="home.html">
+                    <div class="searchinput-box">
+                        <input type="text" placeholder="SEARCH">
+                    </div>
+                </form>
+                </div>
+
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">CLOTHES</a>
+                    <div class="dropdown-content">
+                        <a href="jackets.html">Jackets</a>
+                        <a href="shirts.html">Shirts</a>
+                        <a href="pants.html">Pants</a>
+                        <a href="sweaters.html">Sweaters</a>
+                    </div>
+                </li>
+
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+                <li><a href="shopping-cart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="mainbod">
+       <br>
+       <br>
+       <br>
+    </div>
+
+    <div class="container">
+        <div class="product-box">
+            <img src="pants1.jpg" alt="Jacket" class="product-image">
+            <div class="product-details">
+                <h2>BDG Dad Slim Fit Jean</h2>
+                <p>Dad fit jeans from BDG cut in a slim fit with a slightly tapered leg that's cropped to the ankle. This classic dad jean is available in multiple washes in 100% cotton BDG denim.</p>
+                <p>Price: $99.99
+                    
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                <label for="quantity">Quantity:</label>
+                <select id="quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-box">
+            <img src="sweater2.jpg" alt="Jacket" class="product-image">
+            <div class="product-details">
+                <h2>Frosty Crew Neck Sweater</h2>
+                <p>Stripe pattern knit sweater by Standard Cloth. Pullover style with a crew neck & ribbed knit trims.</p>        
+                <p>Price: $199.99
+
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                <label for="quantity">Quantity:</label>
+                <select id="quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+   
+    <div class="container">
+        <div class="product-box">
+            <img src="yellow.jpg" alt="Jacket" class="product-image">
+            <div class="product-details">
+                <h2>Standard Cloth Faux Wool Varsity Jacket</h2>
+                <p>Classic look varsity style jacket by Standard Cloth with a snap placket closure at the front.
+                    Tonal look jacket with logo embroidery at the left chest. Includes hand pockets at the front.</p>
+                <p>Price: $79.99
+                   
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                <label for="quantity">Quantity:</label>
+                <select id="quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                </p>
+            </div>
+        </div>
+    </div>
+       
+<form action="payment.html"> 
+    <div class="bottommargin">
+        <button class="btn">
+            <b>CHECK OUT</b>
+        </button>
+    </div>
+</form>
+
+    <footer>
+        <div class="contact-info">
+            <p id="footerpara"><b>Phone: +92 333 4643108 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email: info@novapparels.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address: 54 The Mall, Lahore, Pakistan 46620</b></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Accessories - Nova Apparel</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    
+    <style>
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .product-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-display: swap;
+            width: 300px;
+            margin-bottom: 100px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .add-to-cart-btn {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cart {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .cart-item {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+        <a href="home.html">
+            <div class="logo"><img src ="nova logo.png" height = "50" width = "150"></div>
+        </a>
+
+        <div class="searchbox">
+            <form action="home.html">
+                <div class="searchinput-box">
+                    <input type="text" placeholder="SEARCH">
+                </div>
+            </form>
+            </div>
+
+        
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                
+                <li class="dropdown">
+     
+                    <a href="#" class="dropbtn">CLOTHES</a>
+                    <div class="dropdown-content">
+                        <a href="jackets.html">Jackets</a>
+                        <a href="shirts.html">Shirts</a>
+                        <a href="pants.html">Pants</a>
+                        <a href="sweaters.html">Sweaters</a>
+                    </div>
+                </li>
+                
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+                <li><a href="shopping-cart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<div class="container">
+        <div class="product-box">
+        <img src="acc1.jpg" alt="Jacket" class="product-image">
+        <h2>Personal Fears Montrose Chain Necklace</h2>
+        <p>PMontrose chain necklace by Personal Fears. Stainless steel with fully custom links and clasp.</p>
+        <p>Price: $99.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="acc2.jpg" alt="Jacket" class="product-image">
+        <h2>Personal Fears Handcuff Chain Necklace</h2>
+        <p>Handcuff chain necklace by Personal Fears. Stainless steel construction with a custom handcuff clasp</p>        
+        <p>Price: $199.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="acc3.jpg" alt="Jacket" class="product-image">
+        <h2>Spiked Chain Ring</h2>
+        <p>Spiked chain ring with a stainless steel construction.</p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="acc4.jpg" alt="Jacket" class="product-image">
+        <h2>Razor Chain Necklace</h2>
+        <p>Razor chain necklace. Stainless steel beveled chain with a clasp closure.</p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+    
+    <div class="product-box">
+        <img src="acc5.jpg" alt="Jacket" class="product-image">
+        <h2>Black Hole Sun Ring</h2>
+        <p>Stainless steel ring with an intricate sun pattern detailing
+        and inner logo stamping.
+        </p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+    <div class="product-box">
+        <img src="acc6.jpg" alt="Jacket" class="product-image">
+        <h2>King Ice 6mm Baguette Tennis Chain Necklace</h2>
+        <p>Baguette tennis chain necklace by King Ice. 
+            Features baguette cut stone detailing. Fitted with a clasp closure.
+        </p>
+        <p>Price: $79.99</p>
+        <button class="add-to-cart-btn">ADD TO CART</button>
+    </div>
+
+
+</div>
+
+
+    <footer>
+        <div class="contact-info">
+            <p id="footerpara"><b>Phone: +92 333 4643108 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email: info@novapparels.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address: 54 The Mall, Lahore, Pakistan 46620</b></p>  
+        </div>
+    </footer>
+
+</body>
+
+</html>
